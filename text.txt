@@ -1,0 +1,43 @@
+haripriya0322_db_user
+etPjYrsqUiDxywvu
+mongodb+srv://haripriya0322_db_user:etPjYrsqUiDxywvu@cluster0.stit9ke.mongodb.net/?appName=Cluster0
+
+
+
+etPjYrsqUiDxywvu
+
+
+mongoose
+Mongoose is an ODM library for MongoDB and Node.js. It helps us interact with MongoDB using schemas and models. A schema defines the structure and validation rules of documents, while a model provides methods to perform CRUD operations. Mongoose also supports middleware hooks, population, timestamps, and other features that simplify database operations.
+
+
+"Mongoose is an ODM library for MongoDB and Node.js. It is used to connect our Node.js application with MongoDB and perform database operations such as creating, reading, updating, and deleting documents."
+
+
+Multer 
+multer is an npm packages commonly used in node.js for handling multipurpose form data,for file uploads,
+it provides middlewares that can be easily integrated into express.js applications
+
+
+
+Features of npm multer
+File Uploads: Allows uploading files from client-side forms to the server.
+Middleware: Integrates seamlessly with Express.js middleware, making it easy to handle file uploads within routes.
+File Storage: Provides options for storing uploaded files on the server, such as in-memory storage, disk storage, or using a custom storage engine.
+File Filtering: Supports filtering uploaded files based on file type, size, and other criteria.
+Error Handling: Offers error handling for file uploads, including handling file size limits, invalid file types, and other upload-related errors.
+
+
+
+
+
+
+
+
+notes 
+index.js
+where the backend starts ,all the external used are imported here(cors,express,mongoose,db.connect,dotenv) -->
+-->login and register in usermodels 
+(models defines schema and used to interact with database )
+-->controllers  = controls tghe corelogic of what happens during each request 
+mongoose.Schema() is a blueprint or constructor used in Mongoose to define the shape, rules, and structure of documents inside a MongoDB collection.
